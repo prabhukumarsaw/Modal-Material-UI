@@ -1,11 +1,12 @@
-## Modal-Material-UI
-How to use multiple material ui dialog with React?
 
-### App.Js
-`
+## Modal-Material-UI
+- How to use multiple material ui dialog with React?
+
+## App.Js
+
+```sh
 function App() {
   const [darkMode, setDarkMode] = useState(true);
-  
   const [openLogin, setOpenLogin] = useState(false);  //1----
 
 
@@ -15,7 +16,7 @@ function App() {
         <Navbar />
         <Body>
           <HeroSection />
-          <Wrapper>
+           <Wrapper>
              {/* <About />  */}
              
           </Wrapper>
@@ -27,23 +28,19 @@ function App() {
         </Body>
       </Router>
     </ThemeProvider>
-  );
+      );
 }
 
 export default App;
 
-  
-  `
+```
 
 
   ### Footer.js
 
-  `
-    
+ ```sh
   function Footer({onClickLogin}) { //4--------
-
-
-  return (
+    return (
     <FooterContainer>
       <FooterWrapper>
         <Logo>text</Logo>
@@ -74,19 +71,16 @@ export default App;
 
 export default Footer;
   
-  `
-
-  ### Modal.js
-- prerequest
-  ```
-import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
-import { Modal } from '@mui/material';
-import React from 'react'
-import styled from 'styled-components'
 ```
 
-  `
+  ## Modal.js
+- prerequest
+- import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
+- import { Modal } from '@mui/material';
+- import React from 'react'
+- import styled from 'styled-components'
 
+```sh
   const index = ({ open, handleClose }) => {
     return (
         <Modal   open={open} onClose={handleClose}>
@@ -119,5 +113,11 @@ import styled from 'styled-components'
 }
 
 export default index
+```
+   
 
-   `
+
+
+
+
+
