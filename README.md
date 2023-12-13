@@ -1,8 +1,8 @@
-# Modal-Material-UI
+## Modal-Material-UI
 How to use multiple material ui dialog with React?
 
-# App.Js
-<code>
+### App.Js
+`
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   
@@ -33,12 +33,12 @@ function App() {
 export default App;
 
   
-  </code>
+  `
 
 
-  # Footer.js
+  ### Footer.js
 
-  <code>
+  `
     
   function Footer({onClickLogin}) { //4--------
 
@@ -74,16 +74,18 @@ export default App;
 
 export default Footer;
   
-  </code>
+  `
 
-  # Modal.js
-prerequest
-- import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
-- import { Modal } from '@mui/material';
-- import React from 'react'
-- import styled from 'styled-components'
+  ### Modal.js
+- prerequest
+  ```
+import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
+import { Modal } from '@mui/material';
+import React from 'react'
+import styled from 'styled-components'
+```
 
-  <code>
+  `
 
   const index = ({ open, handleClose }) => {
     return (
@@ -118,4 +120,4 @@ prerequest
 
 export default index
 
-   </code>
+   `
