@@ -39,6 +39,7 @@ export default App;
   # Footer.js
 
   <code>
+    
   function Footer({onClickLogin}) { //4--------
 
 
@@ -76,11 +77,11 @@ export default Footer;
   </code>
 
   # Modal.js
-  - prerequest
-import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
-import { Modal } from '@mui/material';
-import React from 'react'
-import styled from 'styled-components'
+prerequest
+- import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
+- import { Modal } from '@mui/material';
+- import React from 'react'
+- import styled from 'styled-components'
 
   <code>
 
